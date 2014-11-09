@@ -1,0 +1,19 @@
+html, body {
+    width: 100%;
+}
+
+.item {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+.container {
+    -webkit-column-width: 20em;
+    -moz-column-width: 20em;
+    column-width: 20em;
+    position: absolute;
+    max-width: 100%;
+}

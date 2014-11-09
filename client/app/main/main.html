@@ -1,0 +1,9 @@
+<!-- pageOpen(pageNumber) is what determines the page initialled loaded  -->
+<div ng-init="pageOpen(1)" class="container">
+  <div class="item" ng-repeat="bit in data">
+    {{bit.title}} -- {{bit.author}}<br />
+    <img src="{{bit.thumbnail_url}}" style="width:200px"><br />
+    {{bit.blurb}}
+    <a href="{{bit.details_url}}">Read more...</a>
+  </div>
+</div>
